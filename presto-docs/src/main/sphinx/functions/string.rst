@@ -169,20 +169,9 @@ String Functions
     Note that ``entryDelimiter`` and ``keyValueDelimiter`` are interpreted literally,
     i.e., as full string matches.
 
-.. function:: strpos(string, substring) -> bigint
-
-    Returns the starting position of the first instance of ``substring`` in
-    ``string``. Positions start with ``1``. If not found, ``0`` is returned.
-
 .. function:: starts_with(string, substring) -> boolean
 
     Returns whether ``string`` starts with ``substring``.
-
-.. function:: strpos(string, substring, instance) -> bigint
-
-    Returns the position of the N-th ``instance`` of ``substring`` in ``string``.
-    ``instance`` must be a positive number.
-    Positions start with ``1``. If not found, ``0`` is returned.
 
 .. function:: strrpos(string, substring) -> bigint
 
